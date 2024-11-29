@@ -5,6 +5,8 @@
         public AppShell()
         {
             InitializeComponent();
+
+            Routing.RegisterRoute(nameof(Views.MS_NotePage), typeof(Views.MS_NotePage));
         }
     }
 }
