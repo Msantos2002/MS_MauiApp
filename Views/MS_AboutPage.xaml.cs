@@ -10,7 +10,7 @@ public partial class MS_AboutPage : ContentPage
     private async void LearnMore_Clicked(object sender, EventArgs e)
     {
         if (BindingContext is Models.MS_About about)
-            // Navigate to the specified URL in the system browser.
+            // Navigate to the specified URL in the system browser. hola
             await Launcher.Default.OpenAsync(about.MoreInfoUrl);
     }
 }
